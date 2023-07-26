@@ -11,12 +11,15 @@ import Test from './components/Test';
 import About from './components/About';
 import Tail from './components/Tail';
 import Navbar from './components/Navbar';
+import Menu from './blocks/Menu';
+import MainOne from './blocks/MainOne';
 
 function App() {
   return (
     <div className="App">
-     <Navbar /> 
-     <Tail />
+      <Menu />
+      <MainOne />
+
 
     </div>
   );
