@@ -28,7 +28,13 @@ const RightSideBar = () => {
     </div>
         
     <div className='items-left'>
-        <h3>Soft Skills</h3>
+        <h3>Tools</h3>
+        <ul>
+            <li>GitHub</li>
+            <li>Figma</li>
+            <li>Postman</li>
+            <li>VScode</li>
+        </ul>
 
     </div>
     <div className='items-left'>
