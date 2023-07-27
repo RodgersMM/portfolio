@@ -5,7 +5,7 @@ import Projects from '../components/Projects'
 
 const Main = () => {
   return (
-    <div className='flex-col'>
+    <div className='flex-col border-solid border-4 border-indigo-600  '>
         <div className='items-center'>
             <h2 className='items-center'> About Me </h2>
            I'm a passionate software engineer passionate about on Full-stack development and Agile Methodologies.

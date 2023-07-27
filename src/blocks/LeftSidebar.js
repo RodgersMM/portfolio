@@ -11,9 +11,7 @@ const LeftSidebar = () => {
             <div>
                 <Image />
             </div>
-            <div>
-                <Imagedsc />
-            </div>
+            
             <div>
             <Hobbies />
             </div>
