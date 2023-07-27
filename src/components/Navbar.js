@@ -11,7 +11,7 @@ const Navbar = () => {
 
         <div className='flex items-center text-white font-bold justify-between text-xl'>
           <ul className='flex justify-evenly items-center ' >
-            <li className='items-center'>TOP SKILLS: </li>
+            <li className='items-center'>TOP SKILLS | </li>
             <li className='items-center'>WEB DEV | </li>
             <li className='items-center'>AGILE |</li>
             <li className='items-center' >SEO |</li>
