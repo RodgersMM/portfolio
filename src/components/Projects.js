@@ -2,9 +2,9 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div className='border-solid'>
-        <h2> List of Projects </h2>
-        <ul>
+    <div className='border-solid-900'>
+        <h2 className=' font-bold items-center'> List of Projects </h2>
+        <ol>
               <li><a classname="font-bold" href='https://rodgersmm.github.io/Akan-Name-Generator/'>Akan Name Generator App:</a>
                Akan name generator is a web application that allow users to generate thier Akan Names after 
                entering date of birth. </li>
@@ -20,7 +20,7 @@ const Projects = () => {
                This is a java application that shifts alphabtical strings given number of times. 
                The user enters alphabet then clicks Enter. After that they enter an integer to shift alphabets by that number of times. 
             </li>
-        </ul>
+        </ol>
 
 
     </div>
