@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
   return (
     <header>
-    <h2 className='center'>DEVELOPER PORTFOLIO</h2>
+    <h2 className='center'>PORTFOLIO LANDING PAGE </h2>
     <nav>
       <ul className='bg-blue-500 '>
         <li><a href="#home">Home</a></li>
