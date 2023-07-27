@@ -36,12 +36,7 @@ const RightSideBar = () => {
             <li>VScode</li>
         </ul>
 
-    </div>
-    <div className='items-left'>
-        <h3>Projects</h3>
-
-    </div>
-        
+    </div>        
    </div>
   )
 }

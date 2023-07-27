@@ -7,7 +7,7 @@ const Main = () => {
   return (
     <div className='flex-col border-solid border-4 border-indigo-600  '>
         <div className='items-center'>
-            <h2 className='items-center'> About Me </h2>
+            <h2 className='items-center font-bold'> ABOUT ME </h2>
            I'm a passionate software engineer passionate about on Full-stack development and Agile Methodologies.
            I'm also a content creator and a digital strategist well-versed in SEO, SMM amd SEM. 
            
