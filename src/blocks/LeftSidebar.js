@@ -4,7 +4,7 @@ import Hobbies from '../components/Hobbies'
 import Image from '../components/Image'
 import Imagedsc from '../components/Imagedsc'
 
-const MainOne = () => {
+const LeftSidebar = () => {
   return (
     <div className='flex '>
         <div className='flex-col items-center'>
@@ -29,4 +29,4 @@ const MainOne = () => {
   )
 }
 
-export default MainOne
+export default LeftSidebar

@@ -12,17 +12,28 @@ import About from './components/About';
 import Tail from './components/Tail';
 import Navbar from './components/Navbar';
 import Menu from './blocks/Menu';
-import MainOne from './blocks/MainOne';
+import Main from './blocks/Main';
+import LeftSidebar from './blocks/LeftSidebar';
+import RightSideBar from './blocks/RightSideBar';
 
 function App() {
   return (
     <div className="App mx-auto w-4/5">
       <Menu />
-      <MainOne />
-      <MenuTwo />
-      <Footer />
-
-
+      <div className = "flex">
+        <div className = "item-center">
+          <LeftSidebar />
+        </div>
+        <div className = "item-center">
+           <Main />
+        </div>
+        <div className = "item-center">
+          <RightSideBar />
+        </div>
+      </div>
+      <div>
+         <Footer />
+      </div>
     </div>
   );
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import Skills from '../components/Skills'
 import Hobbies from '../components/Hobbies'
 
-const MainTwo = () => {
+const Main = () => {
   return (
     <div className='flex'>
         <div className='items-center'>
@@ -14,11 +14,8 @@ const MainTwo = () => {
             <Hobbies />
 
         </div>
-        
-        MainTwo
-
     </div>
   )
 }
 
-export default MainTwo
+export default Main
