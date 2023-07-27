@@ -6,6 +6,7 @@ const Footer = () => {
       <div className='item-center'>
         @All Rights Reserved 
       </div>
+           
       <div className='item-center'>
         CONTACTS :
       </div>
