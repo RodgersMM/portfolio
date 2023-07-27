@@ -1,10 +1,11 @@
 import React from 'react'
 import Skills from '../components/Skills'
 import Hobbies from '../components/Hobbies'
+import Projects from '../components/Projects'
 
 const Main = () => {
   return (
-    <div className='flex'>
+    <div className='flex-col'>
         <div className='items-center'>
             <h2 className='items-center'> About Me </h2>
            I'm a passionate software engineer passionate about on Full-stack development and Agile Methodologies.
@@ -24,7 +25,7 @@ const Main = () => {
            </p>
         </div>
         <div className='items-center'>
-          
+          <Projects />   
            
 
         </div>
