@@ -2,16 +2,16 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
-      <div>
+    <div className='flex App mx-auto w-4/5 space-x-8 border-solid-red-500'>
+      <div className='item-center'>
         All Rights Reserved 
       </div>
-      <div>
-        GitHub: 
-
+      <div className='item-center'>
+        GitHub: https://github.com/RodgersMM
       </div>
-       Email: rodgersmutua44@gmail.com
-        
+      <div className='item-center'>
+        Email: rodgersmutua44@gmail.com       
+      </div>
     </div>
   )
 }
