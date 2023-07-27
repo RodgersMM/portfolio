@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='flex App mx-auto w-4/5 space-x-8 border-solid-red-500'>
+    <div className='flex App mx-auto w-4/5 justify-between space-x-8 border-red-500'>
       <div className='item-center'>
         All Rights Reserved 
       </div>

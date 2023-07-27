@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App mx-auto w-4/5">
       <Menu />
-      <div className = "flex">
+      <div className = "flex justify-between">
         <div className = "item-center">
           <LeftSidebar />
         </div>
