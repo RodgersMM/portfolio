@@ -18,9 +18,9 @@ import RightSideBar from './blocks/RightSideBar';
 
 function App() {
   return (
-    <div className="App mx-auto w-4/5">
+    <div className="App mx-auto w-4/5" h-screen>
       <Menu />
-      <div className = "flex justify-around">
+      <div className = "flex justify-between">
         <div className = "item-center">
           <LeftSidebar />
         </div>

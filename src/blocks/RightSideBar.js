@@ -2,13 +2,13 @@ import React from 'react'
 
 const RightSideBar = () => {
   return (
-   <div>
+   <div className=''>
     <div className='items-left'>
-        <h2>Skills</h2>
+        <h2 className='border-solid border-4 border-indigo-600'>Skills</h2>
 
     </div>
 
-    <div className='items-left'>
+    <div className='items-left font-bold border-solid border-4 border-indigo-600 '>
         <h2>Technical Skills</h2>
 
         <ul>
@@ -18,7 +18,7 @@ const RightSideBar = () => {
             <li>Javascript</li>
         </ul>
         <ul>
-            <h3>Frameworks</h3>
+            <h3 className=' border-solid border-4 border-indigo-600 '>Frameworks</h3>
             <li>REACT</li>
             <li>jQuery</li>
             <li>Nodejs</li>
@@ -28,8 +28,8 @@ const RightSideBar = () => {
     </div>
         
     <div className='items-left'>
-        <h3>Tools</h3>
-        <ul>
+        <h3 className=' border-solid border-4 border-indigo-600'>Tools</h3>
+        <ul className=' border-solid border-4 border-indigo-600'>
             <li>GitHub</li>
             <li>Figma</li>
             <li>Postman</li>
