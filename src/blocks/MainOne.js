@@ -7,7 +7,7 @@ import Imagedsc from '../components/Imagedsc'
 const MainOne = () => {
   return (
     <div className='flex '>
-        <div className='flex items-center'>
+        <div className='flex-col items-center'>
             <div>
                 <Image />
             </div>

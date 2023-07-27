@@ -16,9 +16,11 @@ import MainOne from './blocks/MainOne';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App mx-auto w-4/5">
       <Menu />
       <MainOne />
+      <MenuTwo />
+      <Footer />
 
 
     </div>
