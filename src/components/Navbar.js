@@ -7,17 +7,13 @@ const Navbar = () => {
     <nav className="bg-blue-500 p-4">
       <div className="flex items-center justify-between">
         <div className="text-white font-bold text-xl">PORTFOLIO LANDING PAGE</div>
-        <ul className="flex bg-blue-500 space-x-4">
-          <li className='nav-items'>
-            <a href="#" className="text-white hover:text-gray-300">Home</a>
-          </li>
-          <li className='nav-items'>
-            <a href="#" className="text-white hover:text-gray-300">About Us</a>
-          </li >
-          <li className='nav-items'>
-            <a href="#" className="text-white hover:text-gray-300">Contact</a>
-          </li>
-        </ul>
+        <div className='flex text-white font-bold justify-around text-xl'>
+          <div className='items-center'>TOP SKILLS:</div>
+          <div className='items-center'>Web Dev</div>
+          <div className='items-center'>Agile</div>
+          <div className='items-center'>SEO</div>
+          <div className='items-center'>SMM</div>
+      </div>
       </div>
     </nav>
   );

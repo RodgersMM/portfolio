@@ -5,12 +5,15 @@ const Header = () => {
     <header>
     <h2 className='center'>PORTFOLIO LANDING PAGE </h2>
     <nav>
-      <ul className='bg-blue-500 '>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+      <div className='flex'>
+        <div className='items-center'>TOP SKILLS:</div>
+        <div className='items-center'>Web Dev</div>
+        <div className='items-center'>Agile</div>
+        <div className='items-center'>SEO</div>
+        <div className='items-center'>SMM</div>
+      </div>
+        
+        
     </nav>
   </header>
   )
