@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hobbies = () => {
   return (
-    <div>
+    <div className='border-solid border-4 border-indigo-600 '>
         <h1 className='font-bold'>
            Hobbies
         </h1>
